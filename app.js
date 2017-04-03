@@ -1,6 +1,6 @@
 var app = angular.module('myApp',["ngRoute","ui.bootstrap"]);
 app.constant("config", {
-	apiUrl : "http://localhost:5000",
+	apiUrl : "http://api.mycollegebus.in",
 	baseUrl: '/'
 });
 app.config(function($routeProvider) {
